@@ -1,6 +1,6 @@
 # Daniel Lim – Personal Portfolio Website
 
-**Live Website**: [Click here to view the portfolio](https://linevs8.github.io/personal-portfolio/)
+**Live Website**: [Click here to view the portfolio](https://linevs8.github.io/)
 
 This is a personal portfolio website built to showcase my skills, background, and academic/computer science projects.
 
