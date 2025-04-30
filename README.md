@@ -1,6 +1,10 @@
 # Daniel Lim – Personal Portfolio Website
 
+**Live Website**: [Click here to view the portfolio](https://linevs8.github.io/personal-portfolio/)
+
 This is a personal portfolio website built to showcase my skills, background, and academic/computer science projects.
+
+---
 
 ## Structure
 
@@ -23,5 +27,7 @@ This is a personal portfolio website built to showcase my skills, background, an
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name
-   cd your-repo-name
+   git clone https://github.com/linevs8/personal-portfolio
+   cd personal-portfolio
+
+2. Launch "index.html" on browser
