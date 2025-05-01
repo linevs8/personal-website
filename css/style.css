@@ -1,11 +1,9 @@
-/* Reset default margins */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body styling */
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -14,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* Navigation bar */
 nav ul {
   list-style: none;
   background: #1e3a8a;
@@ -39,7 +36,6 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Header */
 header {
   text-align: center;
   margin: 40px 0;
@@ -52,7 +48,6 @@ header img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: 40px;
@@ -60,9 +55,6 @@ footer {
   color: #777;
 }
 
-/* --- Responsive Design --- */
-
-/* Stack nav items vertically on small screens */
 @media (max-width: 768px) {
 nav ul {
   flex-direction: column;
@@ -86,9 +78,6 @@ form input, form textarea {
 }
 }
 
-/* --- Animations --- */
-
-/* Fade-in effect */
 .fade-in {
 opacity: 0;
 animation: fadeInAnimation 1.5s forwards;
@@ -99,13 +88,11 @@ animation: fadeInAnimation 1.5s forwards;
 100% { opacity: 1; }
 }
 
-/* Hover effect for buttons and links */
 button:hover, nav ul li a:hover, a:hover {
 transform: scale(1.05);
 transition: transform 0.3s ease, background 0.3s ease;
 }
 
-/* Button Styling */
 button {
   background-color: #1e3a8a;
   color: white;
@@ -125,16 +112,14 @@ h1, h2, h3, p, img {
   transition: all 0.4s ease;
 }
 
-/* Skills list formatting */
 ul { 
-  padding-left: 20px;     /* adds indentation */
+  padding-left: 20px;
 }
 
 ul li {
-  margin-bottom: 8px;     /* adds space between items */
+  margin-bottom: 8px;
 }
 
-/* Centered content section */
 .centered-section {
   display: flex;
   justify-content: center;
